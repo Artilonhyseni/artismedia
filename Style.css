@@ -3,17 +3,17 @@
 
 body {
 margin: 0;
+background: linear-gradient(140deg,#A8ADED,#A8D8ED);
 }
-
 
 
 
 .container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: linear-gradient(140deg,#A8ADED,#A8D8ED);
 }
 
 .box {
@@ -53,9 +53,6 @@ z-index: -1;
 	z-index: -2;
 	box-shadow: 5px 5px 10px #000000;
 	
-	
-	
-	
 }
 
 p {
@@ -77,22 +74,36 @@ a {
 	background: linear-gradient(140deg,#A8ADED,#A8D8ED);
 }
 
-footer {
-	border: none;
-	padding: 0px;
-	margin: 0px;
-	border-radius: 20px;
-	background-color: rgba(0,0,0,0.5);
-	background-blend-mode: overlay;
+.knap {
+text-align: center;
+} 
+
+.button {
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: transparent;
+	color: black;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 45px;
+	box-shadow: 5px 5px 10px #000000;
+	border: 2px solid white;
+	text-decoration: none; 
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 15px;
+	font-weight: bold;
 	
 }
 
-.contact-button {
+.button:hover {
+	box-shadow: 0px 0px 5px rgb(255,255,255,0.3), 0px 0px 10px rgb(255,255,255,0.8);
+}
+
+
+.menubar {
+	margin: 0; 
 	display: flex;
-    justify-content: center;
-	flex-direction: center;
-	
-	
-	
+	list-style: none;	
 }
 
