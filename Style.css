@@ -51,6 +51,7 @@ z-index: -1;
 	filter: blur(9px);
 	/* jeg putter z-index ind her da jeg ville have alt det her bagved min boks*/ 
 	z-index: -2;
+	box-shadow: 5px 5px 10px #000000;
 	
 	
 	
@@ -69,6 +70,7 @@ p {
 a {
 	
 	font-size: 20px;
+	color: white;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	display: flex;
 	justify-content: center;
@@ -80,9 +82,17 @@ footer {
 	padding: 0px;
 	margin: 0px;
 	border-radius: 20px;
-	background: linear-gradient(140deg,#A8ADED,#A8D8ED);
+	background-color: rgba(0,0,0,0.5);
 	background-blend-mode: overlay;
 	
 }
 
+.contact-button {
+	display: flex;
+    justify-content: center;
+	flex-direction: center;
+	
+	
+	
+}
 
