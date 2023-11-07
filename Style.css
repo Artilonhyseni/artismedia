@@ -5,6 +5,9 @@ body {
 margin: 0;
 }
 
+
+
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -62,7 +65,24 @@ p {
  margin: 0;
  letter-spacing: -3px;
 }
+
+a {
 	
+	font-size: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(140deg,#A8ADED,#A8D8ED);
+}
+
+footer {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 20px;
+	background: linear-gradient(140deg,#A8ADED,#A8D8ED);
+	background-blend-mode: overlay;
 	
-	   
+}
+
 
