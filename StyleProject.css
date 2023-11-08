@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+body {
+	background: linear-gradient(140deg,#A8ADED,#A8D8ED);
+	min-height: 100vh;
+}
+
+
+.menu {
+	margin: 0; 
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	
+   }
+
+li {
+	padding: 15px;
+	color: black;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	cursor: pointer;
+}
+
+li:hover {
+	box-shadow: 0px 0px 5px rgb(255,255,255,0.3), 0px 0px 10px rgb(255,255,255,0.8);
+	
+  }
