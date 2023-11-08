@@ -101,9 +101,15 @@ text-align: center;
 }
 
 
-.menubar {
+.menu {
 	margin: 0; 
 	display: flex;
-	list-style: none;	
+	list-style-type: none;
+	flex-direction: row;
+	
 }
 
+li {
+	padding: 15px;
+	
+}
