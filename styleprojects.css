@@ -3,13 +3,13 @@
 
 * {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	
 }
 
 body {
-background: linear-gradient((140deg,#A8ADED,#A8D8ED);)
-min-height: 100vh;
+	background: linear-gradient(140deg,#A8ADED,#A8D8ED);
+	min-height: 100vh;
 }
+
 
 .menu {
 	margin: 0; 
