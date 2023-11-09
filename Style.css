@@ -114,6 +114,14 @@ li {
 	color: black;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	cursor: pointer;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	background: transparent; 
+	
 }
 
 li:hover {

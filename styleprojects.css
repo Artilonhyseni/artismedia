@@ -16,8 +16,9 @@ body {
 	display: flex;
 	list-style-type: none;
 	flex-direction: row;
-	
    }
+
+
 
 li {
 	padding: 15px;
@@ -30,3 +31,10 @@ li:hover {
 	box-shadow: 0px 0px 5px rgb(255,255,255,0.3), 0px 0px 10px rgb(255,255,255,0.8);
 	
   }
+
+a {
+	text-decoration: none;
+	color: black;
+	background: transparent; 
+	
+}

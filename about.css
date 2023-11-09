@@ -66,4 +66,9 @@ li:hover {
    }
 	
 	
+	a {
+	text-decoration: none;
+	color: black;
+	background: transparent; 
 	
+}
